@@ -1,0 +1,16 @@
+[project]
+name = "gmtransit"
+version = "0.1.0"
+description = "Climate risk and adaptation planning for the Greater Manchester public transport network"
+requires-python = ">=3.11"
+dependencies = ["numpy", "pandas", "scipy", "highspy", "pyproj", "pillow", "matplotlib", "requests"]
+
+[project.optional-dependencies]
+test = ["pytest"]
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]

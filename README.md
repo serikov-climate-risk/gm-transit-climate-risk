@@ -1,6 +1,6 @@
 # Floods, heat and adaptation planning for the Greater Manchester bus and tram network (v0.1)
 
-[![tests](https://github.com/michaelserikov/gm-transit-climate-risk/actions/workflows/tests.yml/badge.svg)](https://github.com/michaelserikov/gm-transit-climate-risk/actions/workflows/tests.yml)
+[![tests](https://github.com/serikov-climate-risk/gm-transit-climate-risk/actions/workflows/tests.yml/badge.svg)](https://github.com/serikov-climate-risk/gm-transit-climate-risk/actions/workflows/tests.yml)
 
 Where does surface water flooding cut the Greater Manchester bus and tram network, what does it cost travellers once they reroute or switch mode, which sites should be protected and how should that choice change when the 2050s climate is uncertain? The project builds the morning-peak network from the TfGM timetable feed, estimates a mode choice model on Census journey-to-work flows, overlays the Environment Agency surface water flood maps for today and for the 2050s and chooses adaptation sites with a two-stage stochastic program and a minimax regret program. A second hazard, heat, is valued through the speed restrictions it forces on the Metrolink.
 
